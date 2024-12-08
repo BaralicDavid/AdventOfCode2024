@@ -1,13 +1,81 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/modules.xml
-/projectSettingsUpdater.xml
-/.idea.AdventOfCode2024.iml
-/contentModel.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Ignore all bin/ and obj/ folders in subdirectories (for each project)
+**/bin/
+**/obj/
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+msbuild.log
+msbuild.err
+msbuild.wrn
+msbuild.*
+
+# Ignore Rider project files and directories
+.idea/
+*.sln.iml
+*.DotSettings.user
+.idea_modules/
+workspace.xml
+tasks.xml
+usage.statistics.xml
+shelf/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore build and publish outputs
+publish/
+out/
+
+# Ignore any lock files
+project.lock.json
+project.fragment.lock.json
+
+# npm and bower components (if any are used in your project)
+node_modules/
+bower_components/
+
+# Ignore Windows-specific file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file for Windows
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore certificate stores and settings
+*.pfx
+*.p12
+*.cer
+*.crt
+*.key
+
+# Avoid committing unnecessary config directories and caches
+*~backup/
+*~cache/
+
+# Resharper settings (if using Rider with Resharper plugins)
+*.DotSettings.user
+
+# Uncomment if you have environment-specific settings
+# appsettings.Development.json
+# appsettings.Production.json
