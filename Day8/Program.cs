@@ -80,12 +80,6 @@ List<(int, int)> GetAntiNodePositionsPart2((int, int) antennaPos1, (int, int) an
             positions.Add(((int)y, x));
     }
 
-    // if there is no third dot on the line, no positions are antinodes
-    if (positions.Count == 2)
-    {
-        positions.Clear();
-    }
-
     return positions;
 }
 
@@ -107,14 +101,11 @@ List<(int, int)> GetAntiNodePositionsPart2SecondTry((int, int) antennaPos1, (int
         positions.Add((y,x));
         var tempY = y;
         var tempX = x;
-        y = y + (y - prevY);
-        x = x + (x - prevX);
+        y += (y - prevY);
+        x += (x - prevX);
         prevY = tempY;
         prevX = tempX;
     }
-    
-    if (positions.Count == 2)
-        positions.Clear();
 
     return positions;
 }
@@ -129,7 +120,7 @@ void Part2()
             {
                 if (position1 != position2)
                 {                
-                    antinodeSet.UnionWith(GetAntiNodePositionsPart2SecondTry(position1, position2));
+                    antinodeSet.UnionWith(GetAntiNodePositionsPart2(position1, position2));
                 }
             }
         }
