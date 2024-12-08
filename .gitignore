@@ -1,0 +1,61 @@
+## Ignore Visual Studio temporary files, build results, and
+## Rider/JetBrains specific files.
+
+##############
+# Rider/JetBrains #
+##############
+.idea/
+*.sln.iml
+.idea_modules/
+
+# User-specific stuff
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/vcs.xml
+
+# Generated files
+.idea/checkstyle-idea.xml
+
+######################
+# .NET Core & ASP.NET #
+######################
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated folders
+bin/
+obj/
+**/obj/
+**/bin/
+
+# Rider settings
+.idea/
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+
+# Uncomment if needed, for using SQLite
+# *.db
+# *.db-shm
+# *.db-wal
+
+# User secrets
+secrets.json
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/

@@ -11,7 +11,6 @@
         <None Update="input.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Remove=".gitignore" />
     </ItemGroup>
 
 </Project>

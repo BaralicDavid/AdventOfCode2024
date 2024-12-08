@@ -1,10 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System;
-using System.IO;
-
-Console.WriteLine("Hello, World!");
-
 var lines  = File.ReadAllLines("input.txt");
 
 #region part1
