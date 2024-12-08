@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6", "Day6\Day6.csproj", "{FCE5B283-D864-420E-B2E6-D5226176C8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day7", "Day7\Day7.csproj", "{3608A83A-BCD9-4A40-B689-8E37A710302F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8", "Day8\Day8.csproj", "{1EF1E243-200E-4004-A395-A8B6289944F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE5B283-D864-420E-B2E6-D5226176C8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE5B283-D864-420E-B2E6-D5226176C8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE5B283-D864-420E-B2E6-D5226176C8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE5B283-D864-420E-B2E6-D5226176C8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3608A83A-BCD9-4A40-B689-8E37A710302F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3608A83A-BCD9-4A40-B689-8E37A710302F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3608A83A-BCD9-4A40-B689-8E37A710302F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3608A83A-BCD9-4A40-B689-8E37A710302F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF1E243-200E-4004-A395-A8B6289944F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF1E243-200E-4004-A395-A8B6289944F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF1E243-200E-4004-A395-A8B6289944F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF1E243-200E-4004-A395-A8B6289944F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
