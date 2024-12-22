@@ -1,0 +1,5 @@
+Register A: 51342988
+Register B: 0
+Register C: 0
+
+Program: z
